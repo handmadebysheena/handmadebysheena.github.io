@@ -1,0 +1,53 @@
+.inheritme {
+    -ms-flex-align:center;
+    -webkit-align-items:center;
+    -webkit-box-align:center;
+    align-items:center;
+    margin: 0 auto;
+    padding: 0 auto;
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    justify-content: center;
+}
+
+.mainbg {
+    background-color: #e8f6ff;
+}
+
+.fullpg {
+    height: auto;
+    width: 100%;
+    margin-top: 5%;
+}
+
+.logopic {
+    width:385px;
+    margin: 0 auto;
+}
+
+.smpic {
+    width: calc(15vw + 85px);
+}
+
+a .smpictxt, a:hover, a:visited, a:link, a:active, .smpictxt {
+    font-size: 16px;
+    color: #bd6565;
+    text-decoration: none;
+}
+
+.third { 
+    width: calc(20% + ((1920px - 100vw) / 20)); 
+    float: none;
+    margin: 0 auto;
+}
+
+@media only screen and (max-width: 770px) {
+    .third {
+        display: flex;
+    }
+
+    .logopic {
+        width: 55vw;
+    }
+}
