@@ -43,13 +43,16 @@ a .smpictxt, a:hover, a:visited, a:link, a:active, .smpictxt {
 }
 
 @media only screen and (max-width: 770px) {
+    .logopic {
+        width: 35vw;
+    }
     @media only screen and (min-height: 600px){
         .third {
-             display: flex;
+            display: flex;
         }
-    }
-    .logopic {
-        width: 55vw;
+        .logopic {
+            width: 50vw;
+        }
     }
 }
 
